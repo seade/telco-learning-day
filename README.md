@@ -92,7 +92,7 @@ After all three notebooks have run, create the Genie space via the Databricks UI
 
 5. **Dry-run** — Verify warehouse access, SELECT permissions on all objects, instruction consistency with metric view display names, and benchmark each demo question for correctness and response time.
 
-See `notebooks/04_genie_space_manual.md` for the full step-by-step guide, ready-to-paste instructions text, and all example SQL queries.
+See `04_genie_space_manual.md` for the full step-by-step guide, ready-to-paste instructions text, and all example SQL queries.
 
 ---
 
@@ -100,13 +100,11 @@ See `notebooks/04_genie_space_manual.md` for the full step-by-step guide, ready-
 
 ```
 .
-├── README.md                          ← This file
-├── databricks.yml                     ← Databricks Asset Bundle config
-└── notebooks/
-    ├── 01_generate_dataset            ← Synthetic data generation
-    ├── 02_uc_documentation_and_constraints  ← Comments, PKs, FKs
-    ├── 03_metric_view                 ← YAML metric view creation
-    └── 04_genie_space_manual.md       ← Manual UI setup guide
+├── README.md                                       ← This file
+├── 01_generate_dataset.ipynb                       ← Clean telco data
+├── 02_uc_documentation_and_constraints.ipynb      ← Comments, PKs, FKs
+├── 03_metric_view.ipynb                            ← Metric views
+└── 04_genie_space_manual.md                        ← Genie space UI setup guide
 ```
 
 ---
